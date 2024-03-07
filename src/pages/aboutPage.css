@@ -1,0 +1,117 @@
+.about-page-container {
+    background-color: #00000060;
+    backdrop-filter: blur(50px);
+    min-height: 300vh;
+    display: block;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.aboutSection1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-top: 2vw;
+    height:fit-content;
+}
+
+.featured-image>img {
+    height: 40vw;
+    margin:50px;
+    min-height: 500px; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+
+.text-box-blue {
+    background-color: rgba(21, 27, 35, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+    width:100%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.SkillCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-top: 5vw;
+    height:fit-content;
+    margin: auto;
+
+}
+
+.skill-card{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+    min-width: 350px;
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    margin-bottom: 2rem;;
+}
+
+.about-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-top: 5vw;
+    height:fit-content;
+}
+
+.about-skills{
+   width:100%;
+}
+
+.experienceBox{
+    max-width: 100%;
+    min-width: 350px;
+}
+
+.experienceBox{
+    margin-top:4vw;
+    width:95%;
+}
+
+/* 
+.about-page-div2{
+    width: 45%;
+} 
+
+
+
+
+
+.about-page-div2>img {
+    height: 80vh;
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+    width: auto;
+    flex-wrap: nowrap;
+}
+
+.fullWidthHeading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4vh;
+    padding-left: 5%;
+}
+
+.fullWidthHeading>h4 {
+    margin-left: 8px;
+}  */

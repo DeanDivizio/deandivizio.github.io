@@ -1,0 +1,22 @@
+.contact-page-container{
+    background-color: #00000060;
+    backdrop-filter: blur(50px);
+    min-height: 100vh;
+    display: block;
+    width:100vw;
+    overflow-x: clip;
+}
+
+.contact-page-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.email a{
+    color:white;
+}

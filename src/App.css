@@ -1,38 +1,216 @@
-.App {
-  text-align: center;
+h1{
+  color:white;
+  text-align: left;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  color:white;
+  text-align: left;
+  font-size: 4.5rem;
+  margin:auto;
+  margin-right: auto;
+  margin-left:0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h3{
+  color:white;
+  text-align: left;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+h4{
+  color:white;
+  text-align: left;
+  font-size: 1.5rem;
+  /* margin-bottom: 4vh; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  
+}
+
+p{
+  color:whitesmoke;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 250;
+  line-height: 115%;
+}
+
+@media screen and (max-width: 600px) {
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.7rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 1rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+  /* Adjust font sizes for medium screens */
+  h1 {
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 2.2rem;
+  }
+  h4{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1400px) {
+  /* Adjust font sizes for larger screens */
+  h1 {
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 4.5rem;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  h4{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  /* Adjust font sizes for larger screens */
+  h1 {
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 4.5rem;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  h4{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 2.5rem;
+  }
+}
+
+.pageBackground{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.text-box {
+  margin:50px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
+  min-width: 300px;
+  max-width: 1400px;}
+
+.pageBackground img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.blueBG{
+  background-color: rgba(21,27,35,0.7);
+}
+
+.greenBG{
+  background-color: rgba(21, 35, 24, 0.7);
+}
+.redBG{
+  background-color: rgba(71, 34, 29, 0.453);
+
+}
+
+.container-full-width-text{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.35);
+  min-width: 300px;
+  max-width: 92%;
+  margin: auto;
+}
+.container-full-width-text h2{
+  margin-right: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  color:white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.txt23Img13{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  height:fit-content;
+}
+
+.fade-in-2 {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

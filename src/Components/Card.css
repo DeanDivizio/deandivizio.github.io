@@ -1,0 +1,43 @@
+.card {
+    align-items: center;
+    box-shadow: 0 2px 25px rgba(0,0,0,0.65);
+    padding: 0px;
+    height:fit-content;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    flex-shrink: 0;
+    transition: all 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }
+
+.card.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    z-index: 1000; /* Ensure the card is above other elements */
+    transition: all 0.5s ease;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0);
+}
+
+.image{
+    width: 100%;
+    display: block;
+    transition: all 0.6s ease;
+  }
+
+.image.fullscreen {
+    max-width: 80vw; /* 80% of viewport width */
+    max-height: 80vh; /* 80% of viewport height */
+    object-fit: contain;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0);
+    transition: all 0.6s ease;
+}
