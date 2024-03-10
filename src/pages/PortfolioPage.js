@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import PageBackground from '../Components/PageBackground';
 import '../App.css';
 import './portfolioPage.css';
 import ContainerFullWidthText from '../Components/containerFullWidthText';

@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import PageBackground from '../Components/PageBackground';
 import './landingPage.css';
 import ContainerTxt23Img13 from '../Components/ContainerTxt23Img13';
 

@@ -1,14 +1,12 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import PageBackground from '../Components/PageBackground';
 import './contact.css';
 import ContainerFullWidthText from '../Components/containerFullWidthText';
 
 const ContactPage = ({bgImage}) => {
     return (
-        <div className="contact-page">
-            <PageBackground bgImage={bgImage} />
+        <div className="contact-page" style={{ backgroundImage: `url(${bgImage})` }}>
             <div className= "contact-page-container">
             <Header />
                 <div className="contact-page-content fade-in-2">

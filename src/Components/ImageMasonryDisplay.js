@@ -1,13 +1,7 @@
 import React from 'react';
 import Masonry from 'react-masonry-css';
 import './imageMasonryDisplay.css';
-import { CSSProperties } from 'react';
 import Card from './Card.js';
-const masonryOptions = {
-    transitionDuration: 0,
-    gutter: 30,
-    fitWidth: true,
-};
 
 const breakpointColumnsObj = {
     default: 5,

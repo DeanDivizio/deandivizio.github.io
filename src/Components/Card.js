@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './Card.css'; // Import your CSS file
+import React from 'react';
+import './Card.css'; 
 
 function Card({ imageUrl }) {
 
@@ -7,7 +7,6 @@ function Card({ imageUrl }) {
     <div className={`card`}>
       <img
         className={`image`}
-        // style={{ width: '100%' }}
         src={imageUrl}
         alt="alt"
       />
