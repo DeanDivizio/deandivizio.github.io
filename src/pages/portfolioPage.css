@@ -1,12 +1,16 @@
+.portfolio-page{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .portfolio-page-container {
     background-color: #00000060;
     backdrop-filter: blur(50px);
-    min-height: 100vh;
     display: block;
     width:100vw;
-    overflow-x: clip;
+    /* overflow-x: clip;
     overflow-wrap: break-word;
-    overflow-y: scroll;
+    overflow-y: scroll; */
    
 }
 
@@ -28,27 +32,3 @@
     border-radius: 10px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
 }
-/* @media screen and (max-width: 600px) {
-    .video-container{
-        width: 98%;
-    }
-}
-
-@media screen and (min-width: 601px) and (max-width: 1100px) {
-    .video-container{
-        width: 95%;
-    }
-} */
-
-/* @media screen and (min-width: 1100px) and (max-width: 1400px) {
-    .video-container{
-        width: 95%;
-        height: 800px;
-    }
-}
-@media screen and (min-width: 1401px) and (max-width: 1800px) {
-    .video-container{
-        width: 95%;
-        height: 1000px;
-    }
-} */

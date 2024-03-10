@@ -1,7 +1,11 @@
+.about-page{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .about-page-container {
     background-color: #00000060;
     backdrop-filter: blur(50px);
-    min-height: 300vh;
+    /* min-height: 300vh; */
     display: block;
     overflow-x: scroll;
     overflow-y: scroll;

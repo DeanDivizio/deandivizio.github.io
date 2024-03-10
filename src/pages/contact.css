@@ -20,3 +20,8 @@
 .email a{
     color:white;
 }
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+}

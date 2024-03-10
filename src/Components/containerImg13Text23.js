@@ -4,7 +4,7 @@ import '../pages/aboutPage.css';
 
 const ContainerImg13Text23 = ({ color, sectionName, imgURL, sectionHeading, bodyText }) => {
     return (
-        <div className={`img13Text23 ${sectionName}`}>
+        <div className={`img13Text23 ${sectionName} fade-in-2`}>
             <div className="featured-image">
                 <img src={imgURL} alt="Dean Portrait" />
             </div>

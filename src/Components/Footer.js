@@ -1,9 +1,13 @@
 import React from 'react';
+import './footer.css';
 
-const Footer = () => {
+const Footer = ({ fixed }) => {
+  const footerClass = fixed ? 'footer fixed-footer' : 'footer';
   return (
     <footer>
-      {/* Footer content goes here */}
+      <div className={footerClass}>
+        <h6>© 2024 Dean Divizio</h6>
+      </div>
     </footer>
   );
 };

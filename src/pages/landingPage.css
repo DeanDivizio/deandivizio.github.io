@@ -1,3 +1,7 @@
+.landing-page{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .landing-page-container{
     background-color: #00000060;
     backdrop-filter: blur(20px);

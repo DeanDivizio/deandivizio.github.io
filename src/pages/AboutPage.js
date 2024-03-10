@@ -42,23 +42,24 @@ let card4Content = (`<h3>Media</h3>
 <p>Audio Engineering</p>`);
 
 
-const AboutPage = ({ imgURL, bgImage, section1Heading, section1Body, div2HeadingText, div2BodyText, experienceText }) => {
+const AboutPage = ({ isVisible, imgURL, bgImage, section1Heading, section1Body, div2HeadingText, div2BodyText, experienceText }) => {
+
     return (
-        <div className="about-page">
-            <PageBackground imageHeight="300vh" bgImage={bgImage} />
-            <div className="about-page-container">
-            <Header />
+        <div className="about-page" style={{ backgroundImage: `url(${bgImage})` }}>
+            <div animate={{ opacity: isVisible ? 0 : 1 }} className="about-page-container">
+                <Header />
                 <ContainerImg13Text23 color="redBG" sectionName="aboutSection1" imgURL={imgURL} sectionHeading={section1Heading} bodyText={section1Body} />
-                <div className="about-section-2">
+                <div className="about-section-2 fade-in-2">
                     <div className="about-skills">
                         <ContainerFullWidthText color="blueBG" heading={div2HeadingText} subheading={` <p> ${div2BodyText} </p>`} />
                         <SkillCardContainer card1Content={card1Content} card2Content={card2Content} card3Content={card3Content} card4Content={card4Content} />
                     </div>
                     <TextBox label="experienceBox" color="redBG" text={experienceText} />
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+
+        </div >
     );
 };
 

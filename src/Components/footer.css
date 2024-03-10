@@ -1,0 +1,16 @@
+h6{
+    color:whitesmoke;
+    text-align:center;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.216);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: 0px;
+}

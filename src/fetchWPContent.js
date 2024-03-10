@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { useQuery, gql } from '@apollo/client';
 
-function fetchWPContent(resource) {
+
+export default function fetchWPContent(resource) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(`https://your-wordpress-site.com/graphql?resource=${resource}`);
+      const response = await fetch(`https://api.deandivizio.com/graphql?resource=${resource}`);
       const data = await response.json();
       setData(data);
       setLoading(false);
