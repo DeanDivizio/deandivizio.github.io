@@ -1,3 +1,9 @@
+# Overview
+This is the repo for my personal portfolio site. Files related to pages are in src/pages and those related to individual components are in src/components. Presently, content is hard-coded. I have plans to integrate WPGraphQL and turn this into a headless WordPress setup, but that's down the line.
+
+The only thing in the readme I've changed is this summary. The default readme provided by create-react-app is below.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

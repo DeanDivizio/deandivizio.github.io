@@ -13,7 +13,7 @@ const LandingPage = ({ imgURL, bgImage, section1Heading, section1Body }) => {
                 <div className="landing-page-content fade-in-2">
                     <ContainerTxt23Img13 sectionName="homeSection1" color="blueBG" imgURL={imgURL} sectionHeading={section1Heading} bodyText={section1Body} />
                 </div>
-                <Footer />
+                <Footer fixed />
             </div>
         </div>
     );

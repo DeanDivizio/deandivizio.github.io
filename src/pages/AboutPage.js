@@ -55,7 +55,7 @@ const AboutPage = ({ isVisible, imgURL, bgImage, section1Heading, section1Body, 
                     </div>
                     <TextBox label="experienceBox" color="redBG" text={experienceText} />
                 </div>
-                <Footer />
+                <Footer big />
             </div>
 
         </div >

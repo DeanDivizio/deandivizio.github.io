@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css'; // Assuming you have a CSS file for styling
-import './SiteCard.css'; // Assuming you have a CSS file for styling
+import './siteCard.css'; // Assuming you have a CSS file for styling
 
 const SiteCard = ({ image, title, text }) => {
     const [isFlipped, setIsFlipped] = useState(false);
@@ -10,17 +10,10 @@ const SiteCard = ({ image, title, text }) => {
     };
 
     return (
-        <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
-            {!isFlipped ? (
-                <div className="card-front">
-                    <img src={image} alt={title} />
-                    <h2>{title}</h2>
-                </div>
-            ) : (
-                <div className="card-back">
-                    <p>{text}</p>
-                </div>
-            )}
+        <div className="siteCard greenBG" >
+            <img src={image} alt={title} />
+            <h3>{title}</h3>
+            <div dangerouslySetInnerHTML={{__html:`<p>${text}</p>`}}/>
         </div>
     );
 };

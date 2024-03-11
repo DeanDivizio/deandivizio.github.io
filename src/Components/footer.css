@@ -1,6 +1,7 @@
 h6{
     color:whitesmoke;
     text-align:center;
+    margin: 5px;
 }
 
 .footer{
@@ -13,4 +14,10 @@ h6{
     padding-bottom: 5px;
     margin-top: auto;
     margin-bottom: 0px;
+}
+
+.bottomNav{
+    display: flex;
+    justify-content: center;
+   
 }

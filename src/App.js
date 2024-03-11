@@ -17,7 +17,7 @@ let landingBodyText = (`
 
 let aboutHeading = "About Me";
 let aboutBodyText = (`
-<p><em> I'm a creative engineer that loves solving problems and helping others through the combination of media and technology</em></p>
+<p><em> I'm a creative engineer that loves solving problems and helping others through the combination of media and technology.</em></p>
 <p>I'm not a big fan of one-sentence summaries, but I think that works well.  </p>
 <p>I've been interested in technology and various forms of media my entire life. Starting with an interest in music, I've grown to find real passions in photography, video production, graphic design, and most recently - web design and development. </p>
 <p>My primary professional goal is to use my skills in these areas to help those around me. Doing what you love, to the benefit of others; what can be better than that?</p>
@@ -32,7 +32,7 @@ let experienceText = (`<h2>Experience Summary</h2>
 By the time high school rolled around, my passion had changed into a professional ambition. I was determined to make that a reality.</p>
 <p>Immersed in the arts, I spent my formative years honing the skills that would provide the foundation for my professional career. At 17, I decided I wanted to persue those goals further by attending Western Michigan University.</p>
 <p>While at WMU, I discovered my passion for video production, leading to the formation of my company, <a href="https://ovrtonemedia.com"> OVRTONE Media Group</a>. 
-Throughout my time at WMU and in the years following, my professional career as spanned the fields of live sound reinforcement & recording, video production, photography, marketing, design, web development, and more. 
+Throughout my time at WMU and in the years following, my professional career has spanned the fields of live sound reinforcement & recording, video production, photography, marketing, design, web development, and more. 
 My opporotunites across these varied fields have not only furthered my skills in those fields, but also served to shape my holistic approach to media and technology. </p>
 <p>It's one thing to make great content. It's another to know how to implement it properly. It's an entire other third thing to know how to use these skills to help others and further business goals effectively. I've been fortunate enough to do all three.</p>
 <p>Presently, I run OVRTONE with a friend of mine and am seeking my next professional opporitunity, where I hope to be able to put my skills and experience to good use.</p>
