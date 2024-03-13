@@ -12,7 +12,7 @@ let imageArray = ["https://deandiviziodev.wpengine.com/wp-content/uploads/2024/0
     "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/0P7A1871-Large.jpeg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/0P7A1419-Large.jpeg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC06894-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC05963-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC03877-Large.jpeg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC03521-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC02829-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC02822-scaled.jpg",
     "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC00194-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC00163-scaled.jpg", "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC03928-Large.jpeg",];
 
-let repoLink = "";
+let repoLink = "https://deandivizio.com/";
     const PortfolioPage = ({ bgImage }) => {
     return (
         <div className="portfolio-page" style={{ backgroundImage: `url(${bgImage})` }}>
