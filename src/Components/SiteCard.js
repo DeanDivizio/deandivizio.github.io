@@ -1,13 +1,8 @@
-import React, { useState } from 'react';
-import '../App.css'; // Assuming you have a CSS file for styling
-import './siteCard.css'; // Assuming you have a CSS file for styling
+import React from 'react';
+import '../App.css'; 
+import './siteCard.css'; 
 
 const SiteCard = ({ image, title, text }) => {
-    const [isFlipped, setIsFlipped] = useState(false);
-
-    const handleClick = () => {
-        setIsFlipped(!isFlipped);
-    };
 
     return (
         <div className="siteCard greenBG" >
@@ -19,5 +14,3 @@ const SiteCard = ({ image, title, text }) => {
 };
 
 export default SiteCard;
-
-// sites to use: Mine (link to github), ovrtone, midwest podiatry centers, capital podiatry, RPM, bark prod, 
