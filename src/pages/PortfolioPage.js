@@ -34,9 +34,10 @@ let repoLink = "https://deandivizio.com/";
                     <ImageMasonryDisplay images={imageArray} />
                     <ContainerFullWidthText heading={`Web | `} subheading={`<p>Some Sites I've Worked On</p>`} color="blueBG" />
                     <div className="site-card-container">
-                        <SiteCard image="https://api.deandivizio.com/wp-content/uploads/2024/03/DeanDiviziocom-Screencap.jpg" title="This Site!" text={`Built on React with minimalism in mind, this site is an example of a simple but elegant design, developed with a modern tech stack. You can <a href=${repoLink}>view the code here</a>.`} />
+                        <SiteCard image="https://api.deandivizio.com/wp-content/uploads/2024/03/DeanDiviziocom-Screencap.jpg" title="This Site!" text={`Built on React with minimalism in mind, this site is an example of a simple but elegant design, developed with a modern tech stack. <a href=${repoLink}> You can view the code here</a>.`} />
                         <SiteCard image="https://api.deandivizio.com/wp-content/uploads/2024/03/Screenshot-2024-03-13-at-8.59.57 AM-Large.jpeg" title="Capital Podiatry" text={`Originally designed and developed by me, this site is a great example of a modern 'less is more' approach. While no longer maintained by me, enough of my original design is still present to warrant <a href="https://capitalfeet.com">checking it out</a> if you're interested.`} />                   
                         <SiteCard image="https://api.deandivizio.com/wp-content/uploads/2024/03/Screenshot-2024-03-13-at-9.56.33 AM-Large.jpeg" title="RPM" text={`While not built by me, this site is a great example of a site I worked on and updated while maintaining the the original design language perfectly. I don't maintain it anymore, but my work was mostly on images and sign-up pages. <a href="https://rpmattorneys.com/">You can view the site here.</a>`} />
+                        
                     </div>
                 </div>
                 <Footer big />
