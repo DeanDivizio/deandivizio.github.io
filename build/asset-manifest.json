@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ef5b337.css",
-    "main.js": "/static/js/main.94d3cb6e.js",
-    "index.html": "/index.html",
-    "main.2ef5b337.css.map": "/static/css/main.2ef5b337.css.map",
-    "main.94d3cb6e.js.map": "/static/js/main.94d3cb6e.js.map"
+    "main.css": "/deandiviziocom/static/css/main.2ef5b337.css",
+    "main.js": "/deandiviziocom/static/js/main.94d3cb6e.js",
+    "index.html": "/deandiviziocom/index.html",
+    "main.2ef5b337.css.map": "/deandiviziocom/static/css/main.2ef5b337.css.map",
+    "main.94d3cb6e.js.map": "/deandiviziocom/static/js/main.94d3cb6e.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef5b337.css",
