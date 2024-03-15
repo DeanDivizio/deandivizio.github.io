@@ -24,8 +24,8 @@ let aboutBodyText = (`
 <p>In case you're interested, I've listed some relevant skills and a more in-depth bio below.</p>`);
 
 let bioImage = "https://ovrtonemedia.com/wp-content/uploads/2024/02/IMG_2529.jpg"; 
-let bgImage = "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/DSC03928-Large.jpeg";
-let bgImage2 = "https://deandiviziodev.wpengine.com/wp-content/uploads/2024/02/0A3A8310-scaled.jpg";
+let bgImage = "https://api.deandivizio.com/wp-content/uploads/2024/02/DSC03928-Large.jpeg";
+let bgImage2 = "https://api.deandivizio.com/wp-content/uploads/2024/02/0A3A8310-scaled.jpg";
 
 let experienceText = (`<h2>Experience Summary</h2>
 <p>Raised in the suburbs of Chicago, I was captivated by music from a very young age and started my journey into audio engineering at about 11 years old. 
