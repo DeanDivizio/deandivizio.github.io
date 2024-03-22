@@ -45,103 +45,14 @@ p{
   line-height: 115%;
 }
 
-@media screen and (max-width: 600px) {
-  /* Adjust font sizes for smaller screens */
-  h1 {
-    font-size: 2rem;
-  }
-  h2{
-    font-size: 1.7rem;
-  }
-  h3{
-    font-size: 1.5rem;
-  }
-  h4{
-    font-size: 1.2rem;
-  }
-  p{
-    font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 1100px) {
-  /* Adjust font sizes for medium screens */
-  h1 {
-    font-size: 3rem;
-  }
-  h2{
-    font-size: 2.5rem;
-  }
-  h3{
-    font-size: 2.2rem;
-  }
-  h4{
-    font-size: 2rem;
-  }
-  p{
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1400px) {
-  /* Adjust font sizes for larger screens */
-  h1 {
-    font-size: 5rem;
-  }
-  h2{
-    font-size: 4.5rem;
-  }
-  h3{
-    font-size: 4rem;
-  }
-  h4{
-    font-size: 3rem;
-  }
-  p{
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 1401px) {
-  /* Adjust font sizes for larger screens */
-  h1 {
-    font-size: 5rem;
-  }
-  h2{
-    font-size: 4.5rem;
-  }
-  h3{
-    font-size: 4rem;
-  }
-  h4{
-    font-size: 3rem;
-  }
-  p{
-    font-size: 2.5rem;
-  }
-}
-
-.pageBackground{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
 
 .text-box {
-  margin:50px;
+  margin:4vw;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.35);
   min-width: 300px;
-  max-width: 1400px;}
-
-.pageBackground img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
-}
+  max-width: 50vw;}
 
 .blueBG{
   background-color: rgba(21,27,35,0.7);
@@ -213,4 +124,105 @@ a{
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@media screen and (max-width: 600px) {
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  .skill-card h3 {
+    font-size: 3rem;
+  }
+  .skill-card p {
+    font-size: 1.8rem;
+  }
+  .text-box {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+  /* Adjust font sizes for medium screens */
+  h1 {
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 3.5rem;
+  }
+  h3{
+    font-size: 2.2rem;
+  }
+  h4{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  .skill-card h3 {
+    font-size: 3rem;
+  }
+  .skill-card p {
+    font-size: 1.8rem;
+  }
+  .text-box {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1920px) {
+  /* Adjust font sizes for larger screens */
+  h1 {
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3.5rem;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  h4{
+    font-size: 2.2rem;
+  }
+  p{
+    font-size: 1.8rem;
+  }
+  .skill-card h3 {
+    font-size: 3rem;
+  }
+  .skill-card p {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media screen and (min-width: 1921px) {
+  /* Adjust font sizes for larger screens */
+  h1 {
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 4.5rem;
+  }
+  h3{
+    font-size: 4rem;
+  }
+  h4{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 2.5rem;
+  }
 }

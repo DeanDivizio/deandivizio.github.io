@@ -34,8 +34,8 @@ By the time high school rolled around, my passion had changed into a professiona
 <p>While at WMU, I discovered my passion for video production, leading to the formation of my company, <a href="https://ovrtonemedia.com"> OVRTONE Media Group</a>. 
 Throughout my time at WMU and in the years following, my professional career has spanned the fields of live sound reinforcement & recording, video production, photography, marketing, design, web development, and more. 
 My opporotunites across these varied fields have not only furthered my skills in those fields, but also served to shape my holistic approach to media and technology. </p>
-<p>It's one thing to make great content. It's another to know how to implement it properly. It's an entire other third thing to know how to use these skills to help others and further business goals effectively. I've been fortunate enough to do all three.</p>
-<p>Presently, I run OVRTONE with a friend of mine and am seeking my next professional opporitunity, where I hope to be able to put my skills and experience to good use.</p>
+<p>It's one thing to make great content. It's another to know how to implement it properly. However, the real goal is to these skills to help others and further business goals effectively. I've been fortunate enough to do all three.</p>
+<p>Presently, I run OVRTONE with my business partner while seeking my next professional opporitunity, where I hope to be able to put my skills and experience to good use.</p>
 <p>Take care,</p>
 <p>-Dean</p>`);
 

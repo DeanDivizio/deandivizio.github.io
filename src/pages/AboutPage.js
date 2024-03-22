@@ -47,7 +47,7 @@ const AboutPage = ({ isVisible, imgURL, bgImage, section1Heading, section1Body, 
         <div className="about-page" style={{ backgroundImage: `url(${bgImage})` }}>
             <div animate={{ opacity: isVisible ? 0 : 1 }} className="about-page-container">
                 <Header />
-                <ContainerImg13Text23 color="redBG" sectionName="aboutSection1" imgURL={imgURL} sectionHeading={section1Heading} bodyText={section1Body} />
+                <ContainerImg13Text23 color="redBG" sectionName="aboutSection1" sectionHeading={section1Heading} bodyText={section1Body} />
                 <div className="about-section-2 fade-in-2">
                     <div className="about-skills">
                         <ContainerFullWidthText color="blueBG" heading={div2HeadingText} subheading={` <p> ${div2BodyText} </p>`} />

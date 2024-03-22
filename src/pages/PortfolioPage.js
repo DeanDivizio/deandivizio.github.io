@@ -31,7 +31,7 @@ let repoLink = "https://github.com/DeanDivizio/deandivizio.github.io";
                             allowfullscreen>
                         </iframe>
                     </div>
-                    <ContainerFullWidthText heading={`Photography | `} subheading={`<p>People, Places, and Things</p>`} color="greenBG" />
+                    <ContainerFullWidthText heading={`Photo | `} subheading={`<p>People, Places, and Things</p>`} color="greenBG" />
                     <ImageMasonryDisplay images={imageArray} />
                     <ContainerFullWidthText heading={`Web | `} subheading={`<p>Some Sites I've Worked On</p>`} color="blueBG" />
                     <div className="site-card-container">
