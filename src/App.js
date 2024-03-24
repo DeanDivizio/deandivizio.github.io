@@ -44,13 +44,13 @@ My opporotunites across these varied fields have not only furthered my skills in
     <Router>
       <TransitionGroup>
         <CSSTransition classNames="fade" timeout={300}>
-      <Routes >
-        <Route exact path="/" element={<LandingPage section1Body={landingBodyText} section1Heading={landingHeading} imgURL={bioImage} bgImage={bgImage} />} />
-        <Route path="/contact" element={<ContactPage bgImage={bgImage}/>} />
-        <Route path="/portfolio" element={<PortfolioPage bgImage={bgImage2}/>} />
-        <Route path="/about" element={<AboutPage section1Body={aboutBodyText} section1Heading={aboutHeading} imgURL={bioImage} bgImage={bgImage2} div2HeadingText={"Skills |"} div2BodyText={"Separated by Category"} experienceText={experienceText}/>} />
-     </Routes>
-     </CSSTransition>
+          <Routes >
+            <Route exact path="/" element={<LandingPage section1Body={landingBodyText} section1Heading={landingHeading} imgURL={bioImage} bgImage={bgImage} />} />
+            <Route path="/contact" element={<ContactPage bgImage={bgImage}/>} />
+            <Route path="/portfolio" element={<PortfolioPage bgImage={bgImage2}/>} />
+            <Route path="/about" element={<AboutPage section1Body={aboutBodyText} section1Heading={aboutHeading} imgURL={bioImage} bgImage={bgImage2} div2HeadingText={"Skills |"} div2BodyText={"Separated by Category"} experienceText={experienceText}/>} />
+          </Routes>
+        </CSSTransition>
      </TransitionGroup>
   </Router>
 );
