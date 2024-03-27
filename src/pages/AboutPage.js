@@ -21,7 +21,7 @@ let card2Content = (`<h3>Technical</h3>
 <p>WordPress</p>
 <p>Google Analytics</p>
 <p>Generative AI</p>
-<p>APIs</p>`);
+<p>Git/Source Control</p>`);
 
 let card3Content = (`<h3>Logistic</h3>
 <p>Microsoft 365</p>
